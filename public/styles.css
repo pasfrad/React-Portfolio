@@ -2,11 +2,12 @@
     --indigo: #450994;
     --yellow: #fff433;
     --red: red;
-    --grey: #5a5a5a;
+    --grey: #afafaf;
 }
 
 /* * {
     background-color: var(--indigo);
+    font-family: 'Times New Roman', Times, serif;
 } */
 
 .navBar {
@@ -38,15 +39,50 @@
     height: 9%;
 }
 
+#padder {
+    min-height: 70px;
+}
+
 #projectCards {
     min-width: 30%;
     min-height: 200px;
     margin: 10px;
     border-style: solid;
     border-color: var(--indigo);
-    border-radius: 10px
+    border-radius: 10px;
+    transition: 0.3s;
 }
 
-#padder {
-    min-height: 70px;
+#projectCards:hover {
+    background-color: var(--grey);
+}
+
+.img {
+    max-height: 350px;
+    width: 300px;
+    margin: 10px;
+    transition: 0.2s;
+    border: none;
+}
+
+.img:hover {
+    border: var(--indigo);
+}
+
+#link {
+    text-decoration: none;
+    color:black
+}
+
+#link:hover {
+    color: var(--indigo)
+}
+
+#gitIcon:hover {
+    color: var(--red);
+}
+
+#footerIcon:hover {
+    transition: 0.3s;
+    color: white;
 }

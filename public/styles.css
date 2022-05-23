@@ -1,7 +1,5 @@
 :root{
     --indigo: #450994;
-    --yellow: #fff433;
-    --red: red;
     --grey: #afafaf;
 }
 
@@ -61,11 +59,12 @@
     max-height: 350px;
     width: 300px;
     margin: 10px;
-    transition: 0.2s;
+    
     border: none;
 }
 
 .img:hover {
+    transition: 0.1s;
     border: var(--indigo);
 }
 
@@ -75,14 +74,16 @@
 }
 
 #link:hover {
-    color: var(--indigo)
+    transition: 0.1s;
+    color: white;
 }
 
 #gitIcon:hover {
-    color: var(--red);
+    transition: 0.1s;
+    color: white;
 }
 
 #footerIcon:hover {
-    transition: 0.3s;
+    transition: 0.1s;
     color: white;
 }

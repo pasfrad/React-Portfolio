@@ -23,7 +23,7 @@ function Navbar({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Projects')}
           className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
           id="textColor">
-          Projects
+          Portfolio
         </a>
       </li>
 

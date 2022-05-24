@@ -1,18 +1,28 @@
 :root{
-    --indigo: #450994;
+    --indigo: #462386;
     --grey: #afafaf;
 }
 
-/* * {
+* {
+    /* background-color: var(--indigo); */
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.indigo {
     background-color: var(--indigo);
-    font-family: 'Times New Roman', Times, serif;
-} */
+}
+
+.indigoAbout {
+    min-height: 600px;
+    background-color: var(--indigo);
+}
 
 .navBar {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    background-color: var(--indigo);
+    /* background-color: var(--indigo); */
+    background-color: white;
     position: sticky;
     top: 0px;
     width: 100%;
@@ -20,8 +30,9 @@
 }
 
 #textColor {
-    color: white;
-    background-color: var(--indigo);
+    /* color: white;
+    background-color: var(--indigo); */
+    color: var(--indigo);
     height: 75px;
 }
 
@@ -46,7 +57,8 @@
     min-height: 200px;
     margin: 10px;
     border-style: solid;
-    border-color: var(--indigo);
+    border-color: black;
+    background-color: white;
     border-radius: 10px;
     transition: 0.3s;
 }
@@ -65,12 +77,12 @@
 
 .img:hover {
     transition: 0.1s;
-    border: var(--indigo);
+    /* border: var(--indigo); */
 }
 
 #link {
     text-decoration: none;
-    color:black
+    color:black;
 }
 
 #link:hover {

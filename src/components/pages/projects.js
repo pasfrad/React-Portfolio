@@ -9,7 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Projects() {
   return (
-    <div>
+    <div className="indigo">
       <div className="container mt-1">
         <div class="row">
           <div className="col-md-auto" id="projectCards">

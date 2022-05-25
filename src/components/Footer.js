@@ -1,7 +1,8 @@
 import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import MailIcon from '@mui/icons-material/Mail';
+import AssignmentIcon from '@mui/icons-material/Assignment';
+import resume from './pages/assets/resume.pdf';
 
 export default function Footer() {
     return (
@@ -12,8 +13,8 @@ export default function Footer() {
             <a href="https://www.linkedin.com/in/reese-hartnett-702315227/?original_referer=">
             <LinkedInIcon fontSize="large" color="action" id="footerIcon" />
             </a>
-            <a href="mailto:rd.hart@outlook.com">
-            <MailIcon fontSize="large" color="action" id="footerIcon" />
+            <a href={resume}>
+            <AssignmentIcon fontSize="large" color="action" id="footerIcon" />
             </a>
         </div>
     );

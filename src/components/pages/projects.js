@@ -1,10 +1,10 @@
 import React from 'react';
-import techBlog from './images/techBlog.png'
-import JATE from './images/JATE.png'
-import weatherDash from './images/weatherDash.png'
-import placeHolder from './images/placeholder.png'
-import practiceRoom from './images/practiceRoom.png'
-import noteTaker from './images/noteTaker.png'
+import techBlog from './assets/techBlog.png'
+import JATE from './assets/JATE.png'
+import weatherDash from './assets/weatherDash.png'
+import placeHolder from './assets/placeholder.png'
+import practiceRoom from './assets/practiceRoom.png'
+import noteTaker from './assets/noteTaker.png'
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Projects() {

@@ -99,3 +99,13 @@
 #aboutContainer {
     margin-bottom: 25px;
 }
+
+.col-md-7 {
+    border-style: solid;
+    border-color: var(--indigo);
+    border-radius: 10px;
+}
+
+#profilePic {
+    border-radius: 40px;
+}

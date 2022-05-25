@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import About from './pages/aboutMe';
 import Contact from './pages/contactMe';
 import Projects from './pages/projects';
-import Resume from './pages/resume';
+// import Resume from './pages/resume';
 import Navbar from './Navbar'
 import Footer from './Footer';
 
@@ -15,8 +15,8 @@ export default function PortfolioContainer() {
                 return <Contact />;
             case 'Projects':
                 return <Projects />;
-            case 'Resume':
-                return <Resume />;
+            // case 'Resume':
+            //     return <Resume />;
             default:
                 return <About />;
         };

@@ -27,7 +27,7 @@ function Navbar({ currentPage, handlePageChange }) {
         </a>
       </li>
 
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
@@ -35,7 +35,7 @@ function Navbar({ currentPage, handlePageChange }) {
           id="textColor">
           Resume
         </a>
-      </li>
+      </li> */}
 
       <li className="nav-item">
         <a

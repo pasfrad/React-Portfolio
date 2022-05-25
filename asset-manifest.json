@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio/static/js/main.2c656086.js",
-    "static/media/profilePic.png": "/portfolio/static/media/profilePic.ec0a437c7d09f4198688.png",
-    "static/media/placeholder.png": "/portfolio/static/media/placeholder.46b04cf948fac32341f1.png",
-    "static/media/practiceRoom.png": "/portfolio/static/media/practiceRoom.4c16c23cc194f9816eb1.png",
-    "static/media/weatherDash.png": "/portfolio/static/media/weatherDash.bec2d1d01edf5aea7223.png",
-    "static/media/JATE.png": "/portfolio/static/media/JATE.5f072f3c63fd253c6f27.png",
-    "static/media/techBlog.png": "/portfolio/static/media/techBlog.8600d9e27bd961658fd5.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.2b5e971185dfd6ee4005.pdf",
-    "static/media/noteTaker.png": "/portfolio/static/media/noteTaker.077dcd6b0a421c5919b9.png",
-    "index.html": "/portfolio/index.html",
-    "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
-    "main.2c656086.js.map": "/portfolio/static/js/main.2c656086.js.map"
+    "main.css": "/react-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/react-portfolio/static/js/main.db4e8563.js",
+    "static/media/profilePic.png": "/react-portfolio/static/media/profilePic.ec0a437c7d09f4198688.png",
+    "static/media/placeholder.png": "/react-portfolio/static/media/placeholder.46b04cf948fac32341f1.png",
+    "static/media/practiceRoom.png": "/react-portfolio/static/media/practiceRoom.4c16c23cc194f9816eb1.png",
+    "static/media/weatherDash.png": "/react-portfolio/static/media/weatherDash.bec2d1d01edf5aea7223.png",
+    "static/media/JATE.png": "/react-portfolio/static/media/JATE.5f072f3c63fd253c6f27.png",
+    "static/media/techBlog.png": "/react-portfolio/static/media/techBlog.8600d9e27bd961658fd5.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.2b5e971185dfd6ee4005.pdf",
+    "static/media/noteTaker.png": "/react-portfolio/static/media/noteTaker.077dcd6b0a421c5919b9.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.073c9b0a.css.map": "/react-portfolio/static/css/main.073c9b0a.css.map",
+    "main.db4e8563.js.map": "/react-portfolio/static/js/main.db4e8563.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.2c656086.js"
+    "static/js/main.db4e8563.js"
   ]
 }

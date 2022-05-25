@@ -16,7 +16,7 @@ export default function Contact() {
 
         <section>
           <label className='contactBoxes'>Message:</label>
-          <textarea className='form-control' id='message' placeholder='Message' rows='5' cols='33' required></textarea>
+          <textarea className='form-control' id='message' placeholder='Enter message here' rows='5' cols='33' required></textarea>
         </section>
 
         <section className='button'>

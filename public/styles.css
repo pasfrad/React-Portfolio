@@ -1,19 +1,9 @@
 :root{
-    --indigo: #462386;
-    --grey: #afafaf;
-}
-
-* {
-    /* background-color: var(--indigo); */
-    /* font-family: 'Times New Roman', Times, serif; */
+    --indigo: #53438d;
+    --grey: #dadada;
 }
 
 .indigo {
-    background-color: var(--indigo);
-}
-
-.indigoAbout {
-    min-height: 600px;
     background-color: var(--indigo);
 }
 
@@ -29,11 +19,19 @@
     height: 75px;
 }
 
+#aboutMargin {
+    height: 4px;
+    background-color: var(--indigo);
+    margin-bottom: 25px;
+}
+
 #textColor {
-    /* color: white;
-    background-color: var(--indigo); */
     color: var(--indigo);
-    height: 75px;
+}
+
+#textColor:hover {
+    /* font-weight: bold; */
+    color: black;
 }
 
 .footer {
@@ -49,7 +47,7 @@
 }
 
 #padder {
-    min-height: 70px;
+    min-height: 200px;
 }
 
 #projectCards {
@@ -71,31 +69,33 @@
     max-height: 350px;
     width: 300px;
     margin: 10px;
-    
     border: none;
-}
-
-.img:hover {
-    transition: 0.1s;
-    /* border: var(--indigo); */
 }
 
 #link {
     text-decoration: none;
-    color:black;
+    color:var(--indigo);
 }
 
 #link:hover {
     transition: 0.1s;
-    color: white;
+    color: black;
+}
+
+#gitIcon {
+    color: var(--indigo)
 }
 
 #gitIcon:hover {
-    transition: 0.1s;
-    color: white;
+    transition: 0.3s;
+    color: black;
 }
 
 #footerIcon:hover {
-    transition: 0.1s;
+    transition: 0.4s;
     color: white;
+}
+
+#aboutContainer {
+    margin-bottom: 25px;
 }

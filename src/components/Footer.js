@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <div className='footer'>
             <a href="https://github.com/pasfrad/">
-                <GitHubIcon fontSize="large" color="action" id="footerIcon" />
+            <GitHubIcon fontSize="large" color="action" id="footerIcon" />
             </a>
             <a href="https://www.linkedin.com/in/reese-hartnett-702315227/?original_referer=">
             <LinkedInIcon fontSize="large" color="action" id="footerIcon" />

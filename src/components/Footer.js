@@ -2,7 +2,7 @@ import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AssignmentIcon from '@mui/icons-material/Assignment';
-import resume from './pages/assets/resume.pdf';
+import resume from './pages/assets/RDHresume.pdf';
 
 export default function Footer() {
     return (
